@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4389b0eb-199a-43c6-8ecb-8d5088ec4f3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firstBlock/FindImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firstBlock/HelloSelenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/firstBlock/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstBlock/FindLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstBlock/FirstClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/firstBlock/LoginAndPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstBlock/FindImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstBlock/FindImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstBlock/HelloSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstBlock/HelloSelenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstBlock/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/firstBlock/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
@@ -53,22 +54,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindImg.test">
-    <configuration name="FindImg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="firstBlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="firstBlock" />
-      <option name="MAIN_CLASS_NAME" value="firstBlock.FindImg" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginAndPassword">
     <configuration name="FindImg.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -85,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstBlock" />
-      <option name="MAIN_CLASS_NAME" value="firstBlock.HelloSelenium" />
+      <option name="MAIN_CLASS_NAME" value="firstBlock.FindLogin" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSelenium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindLogin.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstBlock" />
-      <option name="MAIN_CLASS_NAME" value="firstBlock.HelloSelenium" />
+      <option name="MAIN_CLASS_NAME" value="firstBlock.FindLogin" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +111,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="firstBlock" />
-      <option name="MAIN_CLASS_NAME" value="firstBlock.Login" />
+      <option name="MAIN_CLASS_NAME" value="firstBlock.LoginAndPassword" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginAndPassword.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstBlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="firstBlock" />
+      <option name="MAIN_CLASS_NAME" value="firstBlock.LoginAndPassword" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,20 +157,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FindImg" />
       <item itemvalue="JUnit.FindImg.test" />
-      <item itemvalue="JUnit.HelloSelenium" />
-      <item itemvalue="JUnit.HelloSelenium.test" />
-      <item itemvalue="JUnit.Login" />
+      <item itemvalue="JUnit.FindLogin" />
+      <item itemvalue="JUnit.FindLogin.test" />
+      <item itemvalue="JUnit.LoginAndPassword" />
+      <item itemvalue="JUnit.LoginAndPassword.test" />
       <item itemvalue="Maven.Selenium" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginAndPassword" />
+        <item itemvalue="JUnit.LoginAndPassword.test" />
+        <item itemvalue="JUnit.FindLogin.test" />
+        <item itemvalue="JUnit.FindLogin" />
         <item itemvalue="JUnit.FindImg.test" />
-        <item itemvalue="JUnit.FindImg" />
-        <item itemvalue="JUnit.Login" />
-        <item itemvalue="JUnit.HelloSelenium" />
-        <item itemvalue="JUnit.HelloSelenium.test" />
       </list>
     </recent_temporary>
   </component>
